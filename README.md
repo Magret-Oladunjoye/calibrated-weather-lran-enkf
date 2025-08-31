@@ -44,11 +44,10 @@ These indicate **well-calibrated** and reasonably **sharp** forecasts: intervals
 ## Quick start
 
 ### 1) Open in Colab
-Click the badge after you push this repo to GitHub (replace `<USER>` and `<REPO>` with your handle and repo name):
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USER>/<REPO>/blob/main/Thesis_Extended.ipynb)
 
-### 2) Run the notebook
+### 2) Download the dataset and run the notebook
+Data source:https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data/
 - Install requirements in the first cell if prompted.
 - Point to your processed city parquet(s) and run the cells.
 - The notebook trains LRAN briefly, runs the Student-t EnKF with adaptive inflation, and computes CRPS/PIT/reliability.
